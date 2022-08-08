@@ -1,0 +1,50 @@
+.app {
+  text-align: center;
+  background-color: hsl(0, 100%, 90%);
+  background-image: url("https://th.bing.com/th/id/R.931a4f66ca34b49e2625fb7059cd87ef?rik=Pd6HPSHqaDCvtg&pid=ImgRaw&r=0");
+  min-height: 100vh;
+  color: rgb(0, 0, 0);
+}
+.box {
+  border-radius: 10px;
+  max-width: 900px;
+  padding: 25px 35px;
+  border-radius: 10px;
+  background-color: hsl(0, 100%, 90%);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.btn {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(21, 17, 224);
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba(107, 20, 96, 0.65);
+}
+.profImg{
+  padding: 35px;
+}
+img {
+  border-radius: 15px;
+  width: 280px;
+}
+.inf{
+  display: flex;
+  flex-direction: row;
+}
+.pos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.count {
+  margin: 20px;
+  padding: 20px;
+  background-color: hsl(0, 100%, 90%);
+  border-radius: 15px;
+}
